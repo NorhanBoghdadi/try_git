@@ -1,3 +1,4 @@
+# Some description
 n = int(input())    # Read input from user
 ar = [int(x) for x in input().split()]  # Mapped input into list of integers
 ac = [(x, ar.count(x)) for x in set(ar)]    # Mapped unique elements of ar to a list of tuples containing the element and it's frequency
